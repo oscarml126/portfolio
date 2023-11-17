@@ -321,8 +321,14 @@
     padding: 75px 90px;
     margin-left: 120px;
 }
+.container4{
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
 @media screen and (max-width: 600px) {
-    .container1{
+    .container4{
         display: none;
     }
 
