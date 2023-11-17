@@ -5,3 +5,8 @@ var typed = new Typed(".text", {
     backDelay: 1000,
     loop: true
   });
+
+  function toggleMenu() {
+    const navList = document.querySelector('.nav-list');
+    navList.classList.toggle('show');
+  }
